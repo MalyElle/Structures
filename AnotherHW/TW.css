@@ -1,0 +1,70 @@
+nav a {
+    color:floralwhite;
+    font-size:40px;
+    text-decoration: 'u';
+    padding: 20px;
+    transition: 0.5s ease-in-out
+}
+
+nav a:hover{
+    color: navy;
+    font-size: 60px;
+    text-decoration: none;
+    padding: 40px
+}
+
+h1 {
+    color:green;
+    text-align: center;
+    font-size: 30px;
+    padding: 10px;
+}
+h1:hover{
+    color: crimson;
+    font-size: 50px;
+    font-family: cursive;
+    text-decoration:underline;
+    transition: ease-out
+}
+
+iframe {
+    width: 500px;
+    height: 300px;
+}
+
+
+@keyframes animationName2{
+    0%{left:0px;}
+    25%{left:50px;}
+    50%{left:0px}
+    75%{left:-50px;}
+    100%{left:0px;padding:10px;
+}
+}
+
+.animationClass2{
+    position:relative;
+    background-color: lightgreen;
+    animation-name:animationName2;
+    animation-duration:2s;
+}
+
+body {
+
+background-repeat: no-repeat;
+background-size: cover;
+
+}
+
+img {
+    width:600px;
+    height:400px;
+}
+
+img:hover{
+    transition: ease-in-out;
+    width: 900px;
+    height: 600px;
+}
+
+
